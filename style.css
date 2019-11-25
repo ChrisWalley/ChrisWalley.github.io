@@ -2,8 +2,11 @@ body {
   background-color: grey;
 }
 h1 {
-  color: blue;
+  color: black;
 }
 p {
-  color: red;
+  color: black;
+}
+ul {
+  color: white
 }
