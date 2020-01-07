@@ -12,6 +12,11 @@ p {
   color: black;
   font-size: 1.2em
 }
+span {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: black;
+  font-size: 0.7em
+}
 ul {
   list-style-type: none;
   color: black
