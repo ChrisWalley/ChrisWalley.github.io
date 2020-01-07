@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="pass.js"></script>
     <meta charset='UTF-8'/>
     <title>Downloads</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styleDownloads.css">
   </head>
   <body>
     <h1>Downloads</h1>
+    <form name="PasswordField" action="">
+      <input type="password" id="password" name="password">
+      <input type="button" id="btnPass" value="Unlock" onclick="isValid();">
+    </form>
     <p>Programs:</p>
     <ul>
-      <li>Argus (with example files): <a href="https://github.com/ChrisWalley/ChrisWalley.github.io/raw/master/downloads/ArgusWithExamples.zip" target="_blank">Here</a></li>
-      <li>Argus (application only): <a href="downloads/Argus.exe" target="_blank" download="Argus.exe">Here</a></li>
+      <li1 id="ArgusEx">Argus (with example files): <a href="https://github.com/ChrisWalley/ChrisWalley.github.io/raw/master/downloads/ArgusWithExamples.zip" target="_blank">Here</a></li1>
+      <li1 id="Argus">Argus (application only): <a href="downloads/Argus.exe" target="_blank" download="Argus.exe">Here</a></li1>
     </ul>
     <p>Utilities:</p>
     <ul>
