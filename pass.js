@@ -7,7 +7,7 @@ if (isValid())
   {
     document.getElementById("password").style.display = "none";
     document.getElementById("btnPass").style.display = "none";
-    document.getElementById("Argus").style.display = "block";
+    document.getElementById("ArgusRef").style.display = "block";
   }
 };
 
